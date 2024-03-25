@@ -1,0 +1,4 @@
+touch testDay00
+vim testDay00
+chmode 455 testDay00
+ls -l testDay00
