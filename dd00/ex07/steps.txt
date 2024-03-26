@@ -1,0 +1,13 @@
+touch testDay00 > #create a file
+vim testDay00 > #text editor
+chmode 455 testDay00 > #change permissions
+ls -l testDay00 > #details list
+tar -cf testDay00.tar testDay00 > #archive file
+cp steps ../ex07 # cp steps.txt ~/PiscinaC/dd00/ex07
+
+Exercise 07
+
+cp steps.txt ~/PiscinaC/dd00/ex07 #copy files and directory in another directory
+cp steps.txt ../ex07
+ls --format=commas -t -p # list all files separated by a comma, by order of creation date, -p directories names are followed by a slash character 
+
