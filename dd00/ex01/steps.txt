@@ -1,5 +1,5 @@
-touch testDay00
-vim testDay00
-chmode 455 testDay00
-ls -l testDay00
-tar -cf testDay00.tar testDay00
+touch testDay00 > #create a file
+vim testDay00 > #text editor
+chmode 455 testDay00 > #change permissions
+ls -l testDay00 > #details list
+tar -cf testDay00.tar testDay00 > #archive file
